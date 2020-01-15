@@ -8,16 +8,22 @@ body {
     clear: both;
 }
 
+h1 {
+    font-family: cursive;
+}
+
 /* NAV */
 
 .navbar {
     background-color: #eee;
     display: flex;
+    justify-content: center;
 }
 
 .navbar h1 {
     padding: 0 20px;
     line-height: 1.5em;
+    
 }
 
 .navbar ul {
@@ -25,6 +31,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 .nav-item a {
@@ -41,12 +48,54 @@ body {
     background-color: #111;
 }
 
+.ipsum{
+    margin: 3.2em;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.dogbody {
+    background-color: thistle;
+}
+
+.catbody {
+    background-color: orangered;
+}
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+.dogs img {
+    height: 250px;
+    margin: 50px;
+}
+
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: cursive;
+}
+
+.catcard img {
+    height: 273px;
+    margin: 20px;
+    padding: 50px;
+    background-color: springgreen;
+}
+
+
 footer {
     width: 100%;
     color: #111;
     background-color: #eee;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 10px;
 }
